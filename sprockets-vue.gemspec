@@ -3,7 +3,7 @@ require 'sprockets/vue/version'
 
 Gem::Specification.new do |s|
   s.name    = 'sprockets-vue'
-  s.version = '0.0.7'
+  s.version = '0.0.8'
 
   s.homepage    = "https://github.com/kikyous/sprockets-vue"
   s.summary     = "Sprockets Vue transformer"
