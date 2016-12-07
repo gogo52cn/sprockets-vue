@@ -15,6 +15,8 @@ module Sprockets::Vue
           Babel::Transpiler.transform(data, {}) #TODO
         },
         'javascript' => ->(s, input){
+          puts s
+          puts input
           s
         }
       }
