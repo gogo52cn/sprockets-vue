@@ -13,6 +13,9 @@ module Sprockets::Vue
         },
         'es6' => ->(s, input){
           Babel::Transpiler.transform(data, {}) #TODO
+        },
+        'javascript' => ->(s, input){
+          s
         }
       }
       def call(input)
